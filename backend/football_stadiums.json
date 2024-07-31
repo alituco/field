@@ -1,0 +1,36 @@
+{
+    "stadiums": [
+      {
+        "stadium_name": "TFA",
+        "malaeb_api_name": "tfa",
+        "location": "Saar",
+        "malaeb_stadium_id": 29,
+        "pitches": [
+          {
+            "local_pitch_number": "Pitch 3",
+            "pitch_size": 7,
+            "malaeb_pitch_number_id": 29
+          },
+          {
+            "local_pitch_number": "Pitch 1",
+            "pitch_size": 6,
+            "malaeb_pitch_number_id": 27
+          }
+        ]
+      },
+      {
+        "stadium_name": "Champions",
+        "malaeb_api_name": "champions-dose-cafe",
+        "location": "Isa Town",
+        "malaeb_stadium_id": 4,
+        "pitches": [
+          {
+            "local_pitch_number": "Pitch 1",
+            "pitch_size": 7,
+            "malaeb_pitch_number_id": 1
+          }
+        ]
+      }
+    ]
+  }
+  

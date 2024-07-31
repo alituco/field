@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "995627818054",
+    "project_id": "alituco-notes",
+    "storage_bucket": "alituco-notes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995627818054:android:3bc2824afdfb06f4a23e47",
+        "android_client_info": {
+          "package_name": "com.testingthisout.alisnotesapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7deRNNdvDhqoA7mTpUzrhxaXeyu_HZCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
