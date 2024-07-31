@@ -26,17 +26,17 @@ app.post('/get-timeframes', async (req, res) => {
         });
         const timeframes = response.data.data.slots_status.map(slot => ({
             time: slot.time,
-            status: slot.status,
-            pitch_id: slot.pitch_id,
+            //status: slot.status,
+            //pitch_id: slot.pitch_id,
             time_am_pm: slot.time_am_pm,
             price: slot.price,
             end_time: slot.end_time,
-            is_female_slot: slot.is_female_slot,
-            is_upfront_slot: slot.is_upfront_slot,
-            is_online_payment_slot: slot.is_online_payment_slot,
-            price_after_discount: slot.price_after_discount,
-            is_special_offer: slot.is_special_offer,
-            is_lowest_price: slot.is_lowest_price,
+            //is_female_slot: slot.is_female_slot,
+            //is_upfront_slot: slot.is_upfront_slot,
+            //is_online_payment_slot: slot.is_online_payment_slot,
+            //price_after_discount: slot.price_after_discount,
+            //is_special_offer: slot.is_special_offer,
+            //is_lowest_price: slot.is_lowest_price,
           }));
       
           res.json({ timeframes });
